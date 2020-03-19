@@ -480,7 +480,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .bx-wrapper .bx-viewport{background:#222;-webkit-transform:translatez(0);-moz-transform:translatez(0);-ms-transform:translatez(0);-o-transform:translatez(0);transform:translatez(0)}
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto{position:absolute;bottom:-30px;width:100%}
-.bx-wrapper .bx-loading{background:url(../images/bx_loader.gif) center center no-repeat #fff;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000}
+.bx-wrapper .bx-loading{background:url(../images/page_loading.svg) center center no-repeat #fff;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000}
 .bx-wrapper .bx-pager{text-align:center;font-weight:bold;color:#666;padding-top:20px}
 .bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item{display:inline-block;*zoom:1;*display:inline}
