@@ -313,73 +313,19 @@ article.post .entry_tags a:hover:before{border-right-color:#222}
 .editor_review .inner .review .review_header .result{color:#999;float:right}
 .editor_review .inner .review .review_footer{height:5px;background-color:#333}
 .editor_review .inner .review .review_footer span{width:100%;display:block;height:5px}
-.editor_review .inner .review_summary {
-    padding: 10px 0 0 0
-}
-.editor_review .inner .review_summary .final_result {
-    padding: 15px;
-    margin-right: 15px;
-    background-color: #333;
-    float: left;
-    text-align: center
-}
-.editor_review .inner .review_summary .final_result p {
-    font-size: 36px;
-    font-weight: 700;
-    color: #fff;
-    line-height: 36px;
-    margin: 0
-}
-.editor_review .inner .review_summary .final_result strong {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1;
-    display: block;
-    margin-bottom: 5px
-}
-
-.editor_review .inner .review_summary .final_summary {
-    float: left;
-}
-.editor_review .inner .review_summary .final_summary h5 {
-    color: #fff;
-    margin: 0 0 5px 0
-}
-.editor_review .inner .review_summary .final_summary p {
-    line-height: 18px;
-    font-size: 13px;
-    color: #999
-}
-.editor_review .inner .review_summary .final_summary img {
-    width: 100px;
-    height: auto;
-    display: block;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s
-}
+.editor_review .inner .review_summary{padding:10px 0 0 0}
+.editor_review .inner .review_summary .final_result{padding:15px;margin-right:15px;background-color:#333;float:left;text-align:center}
+.editor_review .inner .review_summary .final_result p{font-size:36px;font-weight:700;color:#fff;line-height:36px;margin:0}
+.editor_review .inner .review_summary .final_result strong{color:#fff;font-size:12px;font-weight:400;line-height:1;display:block;margin-bottom:5px}
+.editor_review .inner .review_summary .final_summary{float:left;}
+.editor_review .inner .review_summary .final_summary h5{color:#fff;margin:0 0 5px 0}
+.editor_review .inner .review_summary .final_summary p{line-height:18px;font-size:13px;color:#999}
+.editor_review .inner .review_summary .final_summary img{width:100px;height:auto;display:block;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s}
 .editor_review .inner .review_summary .set_gray .final_result *,
-.editor_review .inner .review_summary .set_gray .final_summary *{
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	color: #AAAAAA !important;
-}
-.editor_review .inner .review_summary .set_red .final_result *{
-	color: #FF0000 !important;
-}
-.editor_review .inner .review_summary .final_summary:hover img {
-    opacity: .7;
-}
-
-.editor_review .inner .review_summary .item_meta span {
-    margin-right: 0
-}
-
-
+.editor_review .inner .review_summary .set_gray .final_summary *{-webkit-filter:grayscale(100%);filter:grayscale(100%);color:#AAAAAA !important;}
+.editor_review .inner .review_summary .set_red .final_result *{color:#FF0000 !important;}
+.editor_review .inner .review_summary .final_summary:hover img{opacity:.7;}
+.editor_review .inner .review_summary .item_meta span{margin-right:0}
 @-webkit-keyframes fadeIn{0%{opacity:0;}
 100%{opacity:1;}
 }
